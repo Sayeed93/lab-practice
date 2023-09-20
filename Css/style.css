@@ -1,0 +1,106 @@
+/* common css start here */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Source Sans 3', sans-serif;
+}
+.container{
+    width: 1185px;
+    margin: auto;
+}
+.row{
+    display: flex;
+}
+.justify-content{
+    justify-content: center;
+}
+.align-content{
+    align-items: center;
+}
+/* common css end here */
+
+/* header section start here */
+#header{
+    background-color: #f5f7fa;
+    
+}
+#header a{
+    font-size: 12px;
+    margin: 0 5px;
+    color: black;
+    transition: 0.25s;
+
+}
+#header a img{
+    margin: 0 8px;
+}
+#header .row .mail{
+    display: inline-block;
+}
+#header .row .num{
+    display: inline-block;
+}
+#header .contact-info .mail:hover a{
+    color: #3ac4a9;
+}
+#header .contact-info .num:hover a{
+    color: #3ac4a9;
+}
+#header .contact-info {
+    padding: 15px 0;
+    display: inline-block;
+}
+#header .contact-info{
+    width: 40%;
+}
+#header .social-link{
+    width: 60%;
+    text-align: right;
+}
+#header .social-link .fa-facebook-f{
+    background-color: #4668b3;
+}
+#header .social-link .fa-google-plus-g{
+    background-color: #de5745;
+}
+#header .social-link .fa-twitter{
+    background-color: #2fbbed;
+}
+#header .social-link .fa-pinterest-p{
+    background-color: #3079ff;
+}
+#header .social-link .fa-behance{
+    background-color: #3079ff;
+}
+
+/* header section end here */
+
+/* navbar section star here */
+nav .logo{
+    width: 20%;
+}
+nav .menu{
+    width: 50%;
+}
+nav .menu ul li{
+    text-align: center;
+    display: inline-block;
+}
+nav .menu ul li a{
+    color: #506a85;
+    font-weight: 800;
+}
+nav .searchbar{
+    width: 20%;
+}
+
+/* navbar section end here */
